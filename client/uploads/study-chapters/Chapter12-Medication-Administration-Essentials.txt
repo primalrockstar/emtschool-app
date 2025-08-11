@@ -1,0 +1,40 @@
+﻿# Chapter 12: Medication Administration Essentials
+
+## EMT-B Medication Scope
+
+EMT-B personnel can assist with or administer specific medications within their scope of practice.
+
+### Approved EMT-B Medications:
+
+#### Oxygen
+- **Indication**: Hypoxia, respiratory distress
+- **Dosage**: 2-15 LPM as needed
+- **Route**: Inhalation
+- **Contraindications**: None in emergency settings
+
+#### Aspirin
+- **Indication**: Chest pain suspicious for MI
+- **Dosage**: 324 mg (4 baby aspirin)
+- **Route**: Oral (chewed)
+- **Contraindications**: Allergy, active bleeding, pediatric use
+
+#### Nitroglycerin (Assist Only)
+- **Indication**: Chest pain with physician orders
+- **Dosage**: 0.4 mg sublingual
+- **Route**: Sublingual
+- **Contraindications**: Systolic BP < 100 mmHg, ED medication use
+
+#### Epinephrine Auto-injector
+- **Indication**: Severe allergic reactions
+- **Dosage**: 0.3 mg IM (adult), 0.15 mg (pediatric)
+- **Route**: Intramuscular
+- **Contraindications**: No absolute contraindications in anaphylaxis
+
+### Administration Guidelines:
+1. Verify patient identity and medication
+2. Check expiration dates
+3. Confirm proper dosage
+4. Monitor patient response
+5. Document administration accurately
+
+Patient safety is paramount in all medication administration procedures.

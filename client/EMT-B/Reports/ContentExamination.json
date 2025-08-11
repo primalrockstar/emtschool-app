@@ -1,0 +1,99 @@
+﻿[
+    {
+        "File":  "certification-procedures.ts",
+        "Category":  "Protocols",
+        "Path":  "D:\\EmergencyResponseGuide\\client\\src\\data\\certification-procedures.ts",
+        "HasEMTBContent":  false,
+        "MatchingKeywords":  {
+
+                             },
+        "ContentPreview":  "export interface Procedure {\n  id: string;\n  name: string;\n  description: string;\n  certificationLevel: \u0027EMT\u0027 | \u0027AEMT\u0027 | \u0027Paramedic\u0027;\n  category: string;\n  difficulty: \u0027Basic\u0027 | \u0027Intermediate\u0027 | \u0027Adva",
+        "FileSize":  50880
+    },
+    {
+        "File":  "ems-protocols.ts",
+        "Category":  "Protocols",
+        "Path":  "D:\\EmergencyResponseGuide\\client\\src\\data\\ems-protocols.ts",
+        "HasEMTBContent":  true,
+        "MatchingKeywords":  "transport",
+        "ContentPreview":  "export interface EMSProtocol {\n  id: string;\n  name: string;\n  category: \u0027adult\u0027 | \u0027pediatric\u0027 | \u0027operations\u0027;\n  certificationLevel: \u0027EMT\u0027 | \u0027AEMT\u0027 | \u0027Paramedic\u0027 | \u0027All\u0027;\n  indications: string[];\n  as",
+        "FileSize":  17559
+    },
+    {
+        "File":  "ob-gyn-guide.ts",
+        "Category":  "Protocols",
+        "Path":  "D:\\EmergencyResponseGuide\\client\\src\\data\\ob-gyn-guide.ts",
+        "HasEMTBContent":  false,
+        "MatchingKeywords":  {
+
+                             },
+        "ContentPreview":  "export interface DeliveryStage {\n  stage: string;\n  duration: string;\n  characteristics: string[];\n  interventions: string[];\n}\n\nexport const laborStages: DeliveryStage[] = [\n  {\n    stage: \u0027First Sta",
+        "FileSize":  4918
+    },
+    {
+        "File":  "ai-medication-recommendations.ts",
+        "Category":  "Medications",
+        "Path":  "D:\\EmergencyResponseGuide\\client\\src\\data\\ai-medication-recommendations.ts",
+        "HasEMTBContent":  false,
+        "MatchingKeywords":  {
+
+                             },
+        "ContentPreview":  "export interface PatientPresentation {\n  age: number;\n  weight?: number;\n  symptoms: string[];\n  vitals: {\n    hr: number;\n    sbp: number;\n    dbp: number;\n    rr: number;\n    spo2: number;\n    temp?",
+        "FileSize":  37288
+    },
+    {
+        "File":  "drug-calculator.ts",
+        "Category":  "Medications",
+        "Path":  "D:\\EmergencyResponseGuide\\client\\src\\data\\drug-calculator.ts",
+        "HasEMTBContent":  false,
+        "MatchingKeywords":  {
+
+                             },
+        "ContentPreview":  "export interface DrugDosage {\n  name: string;\n  genericName?: string;\n  indication: string;\n  certificationLevel: \u0027EMT\u0027 | \u0027AEMT\u0027 | \u0027Paramedic\u0027;\n  routes: string[];\n  adultDose: {\n    amount: string;\n ",
+        "FileSize":  6699
+    },
+    {
+        "File":  "medication-simulations.ts",
+        "Category":  "Medications",
+        "Path":  "D:\\EmergencyResponseGuide\\client\\src\\data\\medication-simulations.ts",
+        "HasEMTBContent":  false,
+        "MatchingKeywords":  {
+
+                             },
+        "ContentPreview":  "export interface MedicationSimulation {\n  id: string;\n  title: string;\n  medication: string;\n  certificationLevel: \u0027EMT\u0027 | \u0027AEMT\u0027 | \u0027Paramedic\u0027;\n  scenario: string;\n  patientPresentation: {\n    vitals",
+        "FileSize":  141157
+    },
+    {
+        "File":  "emergency-scenarios.ts",
+        "Category":  "Scenarios",
+        "Path":  "D:\\EmergencyResponseGuide\\client\\src\\data\\emergency-scenarios.ts",
+        "HasEMTBContent":  false,
+        "MatchingKeywords":  {
+
+                             },
+        "ContentPreview":  "export interface EmergencyScenario {\n  id: string;\n  title: string;\n  type: \u0027medical\u0027 | \u0027trauma\u0027 | \u0027pediatric\u0027 | \u0027cardiac\u0027 | \u0027respiratory\u0027 | \u0027neurological\u0027;\n  difficulty: \u0027basic\u0027 | \u0027intermediate\u0027 | \u0027a",
+        "FileSize":  17071
+    },
+    {
+        "File":  "patient-assessment-guide.ts",
+        "Category":  "Scenarios",
+        "Path":  "D:\\EmergencyResponseGuide\\client\\src\\data\\patient-assessment-guide.ts",
+        "HasEMTBContent":  false,
+        "MatchingKeywords":  {
+
+                             },
+        "ContentPreview":  "export interface AssessmentPhase {\n  id: string;\n  name: string;\n  order: number;\n  description: string;\n  keyPoints: string[];\n  mnemonics?: Mnemonic[];\n  timeframe?: string;\n  priority: \u0027critical\u0027 |",
+        "FileSize":  13586
+    },
+    {
+        "File":  "patient-assessment.ts",
+        "Category":  "Scenarios",
+        "Path":  "D:\\EmergencyResponseGuide\\client\\src\\data\\patient-assessment.ts",
+        "HasEMTBContent":  false,
+        "MatchingKeywords":  {
+
+                             },
+        "ContentPreview":  "// Comprehensive Patient Assessment Data from Chapter 10\nexport interface AssessmentStep {\n  id: string;\n  title: string;\n  description: string;\n  category: \u0027scene-size-up\u0027 | \u0027primary\u0027 | \u0027history\u0027 | \u0027secondary\u0027 | \u0027",
+        "FileSize":  8194
+    }
+]

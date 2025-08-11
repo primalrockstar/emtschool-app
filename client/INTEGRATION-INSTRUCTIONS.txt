@@ -1,0 +1,20 @@
+﻿EMT-B INTEGRATION INSTRUCTIONS
+=============================
+
+1. ADD THESE IMPORTS to App-new.tsx:
+import EMTBNavigation from './components/emtb/EMTBNavigation';
+import { Stethoscope } from 'lucide-react';
+
+2. ADD THESE ROUTES to your Routes component:
+<Route path="/emtb" element={<EMTBNavigation />} />
+
+3. ADD TO SIDEBAR NAVIGATION:
+<li className="mb-4">
+  <Link to="/emtb" className="flex items-center hover:text-blue-300">
+    <Stethoscope className="mr-3" /> EMT-B Training
+  </Link>
+</li>
+
+4. TEST:
+npm start
+Navigate to: http://localhost:3000/emtb

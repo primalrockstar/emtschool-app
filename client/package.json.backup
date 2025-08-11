@@ -1,0 +1,46 @@
+﻿{
+  "name": "promedix-ems",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "ProMedix EMS - Professional EMT-B Education Platform",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development tsx server/index.ts",
+    "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
+    "start": "cross-env NODE_ENV=production node dist/index.js",
+    "check": "tsc",
+    "db:push": "drizzle-kit push",
+    "client": "vite",
+    "server": "cross-env NODE_ENV=development tsx server/index.ts",
+    "both": "concurrently \"npm run server\" \"npm run client\"",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.10.0",
+    "@jridgewell/trace-mapping": "^0.3.25",
+    "@neondatabase/serverless": "^0.10.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.8.0",
+    "lucide-react": "^0.453.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.6.0",
+    "framer-motion": "^11.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "@types/node": "20.16.11",
+    "@vitejs/plugin-react": "^4.3.2",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^8.2.0",
+    "cross-env": "^10.0.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.1",
+    "typescript": "5.6.3",
+    "vite": "^5.4.19"
+  }
+}

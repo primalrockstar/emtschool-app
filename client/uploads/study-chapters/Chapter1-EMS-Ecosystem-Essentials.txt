@@ -1,0 +1,33 @@
+﻿# Chapter 1: EMS Ecosystem Essentials
+
+## Introduction to Emergency Medical Services
+
+Emergency Medical Services (EMS) systems provide emergency medical care and transport. The system includes:
+
+### Key Components:
+- **First Responders**: Police, fire department personnel
+- **Emergency Medical Technicians (EMTs)**: Basic life support providers
+- **Paramedics**: Advanced life support providers
+- **Emergency Departments**: Hospital-based care
+
+### EMT-B Scope of Practice:
+- Patient assessment using AVPU scale
+- Basic airway management
+- Oxygen administration
+- CPR and AED operation
+- Basic trauma care
+- Medication assistance (limited scope)
+
+### AVPU Scale:
+- **Alert**: Patient is awake and aware
+- **Verbal**: Patient responds to verbal stimuli
+- **Pain**: Patient responds only to painful stimuli
+- **Unresponsive**: No response to any stimuli
+
+### Vital Signs Assessment:
+- Respiratory rate: 12-20 breaths per minute (adult)
+- Pulse rate: 60-100 beats per minute (adult)
+- Blood pressure: Normal systolic 90-140 mmHg
+- Temperature: 98.6°F (37°C) normal
+
+The EMS system operates on the principle of rapid assessment, stabilization, and transport to appropriate medical facilities.

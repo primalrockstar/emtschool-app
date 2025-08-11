@@ -1,0 +1,8 @@
+﻿node_modules/
+dist/
+client/dist/
+attached_assets/
+*.zip
+*.tar.gz
+*.wav
+.replit
